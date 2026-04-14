@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* main box layout */
+.box-layout{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* the left box */
+.box-left{
+    background-color: green;
+    width: 200px;
+    height:500px;
+}
+
+/* the middle box */
+.box-middle{
+    background-color: green;
+    width: 500px;
+    height: 100px;
+}
+
+/* the right box section */
+.box-right-part{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* the right box */
+
+.box-right{
+    background-color: red;
+    width: 300px;
+    height: 100px;
+}
+/* the right bottom box */
+
+.box-right-bottom{
+ background-color: green;
+    width: 300px;
+    height: 400px;
+}
+
+/* 2 small top box */
+
+.first{
+    display:flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* 2 samll bottom box */
+
+.second{
+    display:flex;
+    justify-content: center;
+    gap: 20px;
+}
+/* small box 1 */
+.box1{
+    background-color: yellow;
+    width: 240px;
+    height: 100px;
+}
+/* small box 2 */
+.box2{
+    background-color: red;
+    width: 240px;
+    height: 100px;
+}
+/* small box 3 */
+.box3{
+    background-color: red;
+    width: 240px;
+    height: 100px;
+}
+/* small box 4 */
+.box4{
+    background-color: yellow;
+    width: 240px;
+    height: 100px;
+}
+/* layout er middle box gula  */
+.box-middle-part {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.box-midlle{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media screen and (max-width:768px) {
+  .box-layout {
+    display: flex;
+    flex-direction: column;
+}
+
+ .box-left{
+    display: flex;
+    width:100%;
+    height: 100px;
+}
+
+.box-middle{
+    display: flex;
+    width: 100%;
+    height: 100px;
+}
+
+.box-right-part {
+    display: flex;
+    flex-direction: column;
+}
+
+.box-right{
+    display: flex;
+    width: 100%;
+    height: 100px;
+}
+
+.box-right-bottom{
+    display: flex;
+    width: 100%;
+    height: 100px;
+}
+
+}
+
+@media screen and (max-width:425px) {
+
+
+.box-middle-part{
+    display: flex;
+    flex-direction: column;
+}
+.first{
+    display: flex;
+    flex-direction: column; 
+    padding-left: 100px;
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+}
+
+.box1{
+   width: 70%;
+}
+
+.box2{
+   width:70%;
+}
+
+.box3{
+    width: 70%;
+}
+
+.box4{
+    width: 70%;
+}
+
+.box-right-part {
+    display: flex;
+    flex-direction: column;
+}
+
+.box-right{
+    display: flex;
+    width: 100%;
+    height: 100px;
+}
+
+.box-right-bottom{
+    display: flex;
+    width: 100%;
+    height: 100px;
+}
+
+}
